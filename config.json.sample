@@ -1,0 +1,90 @@
+{
+    "spouse": {
+        "name": "Jane",
+        "birth_date": "1980-01-01",
+        "retirement_age": 65,
+        "social_security_age": 65,
+        "annual_salary": 50000,
+        "social_security_payouts": [1000, 1500, 2000],
+        "monthly_living": 0,
+        "health_care": {
+            "premium": 300,
+            "out_of_pocket": 5000,
+            "inflation": 0.03
+        },
+        "assets": {
+            "car": {
+                "purchase_date": "2015-01-01",
+                "price": 25000
+            }
+        }
+    },
+    "name": "John",
+    "birth_date": "1980-01-01",
+    "risk_factors": ["male"],
+    "risk_profile": {
+        "speculative": 0.10,
+        "aggressive": 0.07,
+        "moderate": 0.04,
+        "conservative": 0.03
+    },
+    "retirement_age": 65,
+    "social_security_age": 65,
+    "social_security_payouts": [1500, 2000, 2500],
+    "annual_salary": 100000,
+    "monthly_living": 2500,
+    "cushion": 10000,
+    "rent": 2000,
+    "state": "CA",
+    "children": {
+        "Alice": {
+            "birth_date": "2018-01-01",
+            "tuition": [
+                12000,
+                12000,
+                10000,
+                8000,
+                8000,
+                0, 0, 0, 0, 0, 0,
+                0, 0, 0,
+                0, 0, 0, 0,
+                30000, 30000, 30000, 30000, 30000
+            ]
+        }
+    },
+    "assets": {
+        "cash": 20000,
+        "slush_fund": { "Rainy Day": 25000 },
+        "401k": { "Some Job": 50000 },
+        "ira": {
+            "Inheritance": { "balance": 100000, "inherit_date": "2015-01-01" }
+        },
+        "home": {
+            "value": 300000,
+            "principal": 250000.00,
+            "interest": 0.04,
+            "due_date": "2040-01-01",
+            "property_tax": 0.015
+        },
+        "car": {
+            "purchase_date": "2010-07-01",
+            "price": 20000
+        }
+    },
+    "debts": {
+        "College": {
+            "principal": 30000,
+            "interest": 0.06,
+            "due_date": "2022-01-01"
+        }
+    },
+    "health_care": {
+        "assisted_living": {
+            "basic_rate": 3000,
+            "terminal_rate": 5000
+        },
+        "premium": 300,
+        "out_of_pocket": 5000,
+        "inflation": 0.03
+    }
+}

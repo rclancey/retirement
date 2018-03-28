@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Retirement</title>
+        <script src="plotly-latest.min.js"></script>
+        <script src="retirement.js"></script>
+        <style>
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#age, #balance, #market {
+    width: 33%;
+    float: left;
+    margin-bottom: 1em;
+}
+.chart {
+    width: 100%;
+    height: 200px;
+}
+
+.filter {
+    padding: 1em;
+}
+
+.filter .clearFilter {
+    float: right;
+    color: blue;
+    cursor: pointer;
+}
+
+#chart {
+    width: 99%;
+    height: 500px;
+}
+br.clear {
+    clear: both;
+}
+        </style>
+    </head>
+
+    <body>
+        <div id="age">
+            <div class="filter"></div>
+            <div class="chart"></div>
+        </div>
+        <div id="balance">
+            <div class="filter"></div>
+            <div class="chart"></div>
+        </div>
+        <div id="market">
+            <div class="filter"></div>
+            <div class="chart"></div>
+        </div>
+        <br class="clear"/>
+        <div id="chart"></div>
+        <script>
+var ret = new Retirement('go/results');
+ret.summary();
+        </script>
+    </body>
+</html>
+
